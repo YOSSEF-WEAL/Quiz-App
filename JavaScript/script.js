@@ -87,7 +87,6 @@ const getRandomQuestion = () =>
 
 };
 
-
 // Highlight the Correct Answer option and add icon 
 const HighlightCorrectAnswer = () =>
 {
@@ -140,8 +139,6 @@ const randomQuestion = () =>
         answerOptions.appendChild(li);
         li.addEventListener('click', () => handleAnswer(li, index))
     });
-
-
 };
 
 
@@ -177,10 +174,10 @@ categorysQuestionsOptions.forEach(option =>
     {
         option.parentNode.querySelector(".active").classList.remove('active');
         option.classList.add('active');
-    })
+    });
 });
 
 
 nextQuestionBtn.addEventListener('click', randomQuestion);
-tryAgainBtn.addEventListener("click", resetQuiz)
-startQuizBtn.addEventListener('click', startQuiz)
+tryAgainBtn.addEventListener("click", resetQuiz);
+startQuizBtn.addEventListener('click', startQuiz);
