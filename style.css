@@ -331,4 +331,15 @@ footer {
   .result-container {
     width: 95%;
   }
+  .quiz-container {
+    & .quiz-content {
+      .question-text {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  body {
+    padding-top: 20px;
+  }
 }
