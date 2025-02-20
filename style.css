@@ -326,6 +326,9 @@ footer {
 }
 
 @media (max-width: 400px) {
+  body {
+    padding-top: 20px;
+  }
   .config-container,
   .quiz-container,
   .result-container {
@@ -337,9 +340,5 @@ footer {
         font-size: 1.2rem;
       }
     }
-  }
-
-  body {
-    padding-top: 20px;
   }
 }
