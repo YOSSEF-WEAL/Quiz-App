@@ -8,5 +8,6 @@
   "editor.acceptSuggestionOnEnter": "on",
   "editor.inlineSuggest.enabled": false,
   "editor.suggestSelection": "first",
-  "editor.tabCompletion": "on"
+  "editor.tabCompletion": "on",
+  "liveServer.settings.port": 5501
 }
